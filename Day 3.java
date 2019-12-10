@@ -17,8 +17,7 @@ public class Main {
 
         String[] wire1 = input1.split(",");
         String[] wire2 = input2.split(",");
-
-//        List<Pair<Integer, Integer>> wirePoints = new ArrayList<>();
+        
         List<String> intersections = new ArrayList<>();
 
         Map<String, Integer> wirePoints = new HashMap<>();
