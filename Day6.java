@@ -43,7 +43,7 @@ public static void main(String[] args) throws IOException {
         List<String> nodes = new ArrayList<>();
         System.out.println(key);
         while(!key.equals("COM")) {
-            key = hashMap.get(key).get(0);
+            key = hashMap.get(key).get(0); // sets key to parent if key is not equal to COM
             nodes.add(key);
         }
         return nodes;
